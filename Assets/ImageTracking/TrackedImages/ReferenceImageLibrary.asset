@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5424488171940219930
+  m_GuidHigh: 9148545862498111423
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5603763638805704601
+      m_GuidHigh: 11248125935581406105
+    m_SerializedTextureGuid:
+      m_GuidLow: 16912238867313261593
+      m_GuidHigh: 3135370671375714571
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT1
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5050474917827744959
+      m_GuidHigh: 15882810376117825201
+    m_SerializedTextureGuid:
+      m_GuidLow: 9796728155945874159
+      m_GuidHigh: 11543116371328681082
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT2
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5531283305732208929
+      m_GuidHigh: 16123869913657367981
+    m_SerializedTextureGuid:
+      m_GuidLow: 16948209442600968271
+      m_GuidHigh: 14112835714485267354
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT3
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5309251719928488111
+      m_GuidHigh: 8005602827986603187
+    m_SerializedTextureGuid:
+      m_GuidLow: 6418899097329622664
+      m_GuidHigh: 8742513088174556713
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT4
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5687550422707127389
+      m_GuidHigh: 12600644563981324703
+    m_SerializedTextureGuid:
+      m_GuidLow: 13921996468531882360
+      m_GuidHigh: 11269898216995604859
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT5
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4628276850891355815
+      m_GuidHigh: 6661771592847016895
+    m_SerializedTextureGuid:
+      m_GuidLow: 8364355220082016100
+      m_GuidHigh: 15781691344250657498
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT6
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4703447960947911658
+      m_GuidHigh: 1090259144631040141
+    m_SerializedTextureGuid:
+      m_GuidLow: 18231759076388069230
+      m_GuidHigh: 13797074468967113480
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT7
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5375981841833057506
+      m_GuidHigh: 17211129246054154641
+    m_SerializedTextureGuid:
+      m_GuidLow: 847855713418529405
+      m_GuidHigh: 11304618247118275819
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT8
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5034485367479186576
+      m_GuidHigh: 4370402628859402170
+    m_SerializedTextureGuid:
+      m_GuidLow: 7121569136876449389
+      m_GuidHigh: 6242389420846708905
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT9
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5087362844866145395
+      m_GuidHigh: 9759500025618583948
+    m_SerializedTextureGuid:
+      m_GuidLow: 6558428814535629363
+      m_GuidHigh: 4512527678805749835
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT10
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5179821057696315525
+      m_GuidHigh: 11852999679125846408
+    m_SerializedTextureGuid:
+      m_GuidLow: 11296370561568526082
+      m_GuidHigh: 4844331899080677304
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT11
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5082865466426097361
+      m_GuidHigh: 433468501523659943
+    m_SerializedTextureGuid:
+      m_GuidLow: 1820698280354315069
+      m_GuidHigh: 10032217730591728760
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT12
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5249304033976642071
+      m_GuidHigh: 599673053472599430
+    m_SerializedTextureGuid:
+      m_GuidLow: 14723603875707567220
+      m_GuidHigh: 14398449469384612840
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT13
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5202952206487177774
+      m_GuidHigh: 15549262970185618872
+    m_SerializedTextureGuid:
+      m_GuidLow: 15498078385581070240
+      m_GuidHigh: 16755893440775695960
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT14
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5134870980258836421
+      m_GuidHigh: 5890347628606175112
+    m_SerializedTextureGuid:
+      m_GuidLow: 16889640790185384459
+      m_GuidHigh: 18166541909178371080
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT15
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4975792752078215729
+      m_GuidHigh: 14173359612230243516
+    m_SerializedTextureGuid:
+      m_GuidLow: 18371345413558337353
+      m_GuidHigh: 15228837998150310427
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT16
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4924028129355935986
+      m_GuidHigh: 1013307410251553670
+    m_SerializedTextureGuid:
+      m_GuidLow: 18285950759239997892
+      m_GuidHigh: 10836937189279783417
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT17
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4784815599828659414
+      m_GuidHigh: 16894582906887250090
+    m_SerializedTextureGuid:
+      m_GuidLow: 32727751588787455
+      m_GuidHigh: 7038389964587903161
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT18
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5225332535359932653
+      m_GuidHigh: 15691433832628082338
+    m_SerializedTextureGuid:
+      m_GuidLow: 12755456775800131119
+      m_GuidHigh: 11005524962694322298
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT19
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4868968632124140019
+      m_GuidHigh: 1923185025062483609
+    m_SerializedTextureGuid:
+      m_GuidLow: 3662751442000218784
+      m_GuidHigh: 4374206021113048857
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT20
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5617867037812161646
+      m_GuidHigh: 4021286431044533905
+    m_SerializedTextureGuid:
+      m_GuidLow: 2577254883108978374
+      m_GuidHigh: 8643743307342685627
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT21
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5673016435634143516
+      m_GuidHigh: 5766004509562769579
+    m_SerializedTextureGuid:
+      m_GuidLow: 6959391051143563577
+      m_GuidHigh: 2410885701342136090
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT22
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5376370260953856132
+      m_GuidHigh: 15658148949237327540
+    m_SerializedTextureGuid:
+      m_GuidLow: 9229189481325653640
+      m_GuidHigh: 11943563159412309512
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT23
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4846671206718048693
+      m_GuidHigh: 16407255445440733330
+    m_SerializedTextureGuid:
+      m_GuidLow: 5824301969251359834
+      m_GuidHigh: 10283112025964690683
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: SHOT24
+    m_Texture: {fileID: 0}
