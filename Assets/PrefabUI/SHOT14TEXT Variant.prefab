@@ -11,12 +11,18 @@ PrefabInstance:
     - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_text
-      value: '
-
-
-        TEXT14
-
-'
+      value: Photographer test shoots the reflective wall to determine how intense
+        the over exposure will be, helping the crew reconfigure.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 6007603683317802085, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}

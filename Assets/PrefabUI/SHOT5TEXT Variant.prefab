@@ -14,6 +14,16 @@ PrefabInstance:
       value: The crew debating and deciding where the final spot should be for the
         deal to take place during the experience.
       objectReference: {fileID: 0}
+    - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 13
+      objectReference: {fileID: 0}
     - target: {fileID: 6007603683317802085, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_Pivot.x
@@ -122,7 +132,7 @@ PrefabInstance:
     - target: {fileID: 6711423548489606193, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6848316611481782037, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}

@@ -11,12 +11,18 @@ PrefabInstance:
     - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_text
-      value: '
-
-
-        TEXT13
-
-'
+      value: Crew moves to their chosen position (hiding place) to prepare for the
+        first take of the shoot.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6007603683317802085, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}

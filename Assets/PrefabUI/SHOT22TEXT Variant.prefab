@@ -11,10 +11,7 @@ PrefabInstance:
     - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_text
-      value: '
-
-
-        TEXT22'
+      value: The crew walks to a different block for the master shot to commence.
       objectReference: {fileID: 0}
     - target: {fileID: 6007603683317802085, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
@@ -129,7 +126,7 @@ PrefabInstance:
     - target: {fileID: 7341502033826200019, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
