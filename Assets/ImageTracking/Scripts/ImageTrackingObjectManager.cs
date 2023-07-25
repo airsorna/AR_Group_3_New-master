@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
@@ -129,7 +130,7 @@ public class ImageTrackingObjectManager : MonoBehaviour
 
     void ImageManagerOnTrackedImagesChanged(ARTrackedImagesChangedEventArgs obj)
     {
-        // added, spawn prefabpr
+        // added, spawn prefab
         ///////////////////////////////////////////////////////////////////////
         foreach(ARTrackedImage image in obj.added)
         {
@@ -141,8 +142,6 @@ public class ImageTrackingObjectManager : MonoBehaviour
                 var prefab = prefabImagePairs[imageGuid];
 
                 var canvas = prefab.GetComponent<Canvas>();
-                canvas.worldCamera = arCamera;
-                // Chris, you need to change this line
                 var clone = Instantiate(prefab);
                 if ( clones.ContainsKey(imageGuid) )
                 {
@@ -152,6 +151,7 @@ public class ImageTrackingObjectManager : MonoBehaviour
                 {
                     clones.Add(imageGuid, prefab);
                 }
+                Debug.LogWarning($" Added [***KEYS****]: {image.referenceImage.name}");
             }
            
         }
@@ -160,44 +160,44 @@ public class ImageTrackingObjectManager : MonoBehaviour
         ////////////////////////////////////////////////////////////////////////
         foreach(ARTrackedImage image in obj.updated)
         {
-            // image is tracking or tracking with limited state, show visuals and update it's position and rotation
-            if (image.trackingState == TrackingState.Tracking)
+            Debug.LogWarning($" Updating [***KEYS****]: {image.referenceImage.name}");
+            Debug.LogWarning($" Updating [***KEYS****]: {image.referenceImage.guid}");
+              
+            var _keys = clones.Keys;
+
+            StringBuilder _builder = new StringBuilder();
+            _builder.AppendLine("Updating [***KEYS****]:");
+            foreach (var key in _keys)
             {
-                if (image.referenceImage.guid == s_FirstImageGUID)
-                {
-                    /*m_OneNumberManager.Enable3DNumber(true);
-                    m_SpawnedOnePrefab.transform.SetPositionAndRotation(image.transform.position, image.transform.rotation);*/
-                }
-                else if (image.referenceImage.guid == s_SecondImageGUID)
-                {
-                    /*m_TwoNumberManager.Enable3DNumber(true);
-                    m_SpawnedTwoPrefab.transform.SetPositionAndRotation(image.transform.position, image.transform.rotation);*/
-                }
+                _builder.AppendLine(key.ToString());
             }
-            // image is no longer tracking, disable visuals TrackingState.Limited TrackingState.None
-            else
+            Debug.LogWarning(_builder);
+
+            if (clones.ContainsKey(image.referenceImage.guid))
             {
-                if (image.referenceImage.guid == s_FirstImageGUID)
+                var clone = clones[image.referenceImage.guid];
+                if (clone != null)
                 {
-                    //m_OneNumberManager.Enable3DNumber(false);
-                }
-                else if (image.referenceImage.guid == s_SecondImageGUID)
-                {
-                    //m_TwoNumberManager.Enable3DNumber(false);
+                    Destroy(clone.gameObject);
+                    clones.Remove(image.referenceImage.guid);
                 }
             }
         }
+
         
         // removed, destroy spawned instance
         //////////////////////////////////////////////////////////////////////
         foreach(ARTrackedImage image in obj.removed)
         {
+            Debug.LogWarning($" REMOVED [***KEYS****]: {image.referenceImage.name}");
+            var _keys = clones.Keys;
+            Debug.LogWarning($"REMOVED [***KEYS****]: {_keys}");
             if ( clones.ContainsKey(image.referenceImage.guid))
             {
                 var clone = clones[image.referenceImage.guid];
                 if ( clone != null )
                 {
-                    Destroy(clone);
+                    Destroy(clone.gameObject);
                 }
             }
             
@@ -208,6 +208,35 @@ public class ImageTrackingObjectManager : MonoBehaviour
             else if (image.referenceImage.guid == s_SecondImageGUID)
             {
                 Destroy(m_SpawnedTwoPrefab);
+            }
+        }
+
+        // Check against the clones dictionary just in case
+        StringBuilder builder = new StringBuilder();
+        builder.AppendLine("After everything [***KEYS****]:");
+        var keys = clones.Keys;
+        foreach (var key in keys)
+        {
+            builder.AppendLine(key.ToString());
+        }
+        Debug.LogWarning(builder);
+        foreach (var kvp in clones)
+        {
+            Guid key = kvp.Key;
+            GameObject value = kvp.Value;
+            bool isInUpdated = false;
+            foreach (var item in obj.updated)
+            {
+                if (key == item.referenceImage.guid)
+                {
+                    isInUpdated = false;
+                    break;
+                }
+            }
+            if (!isInUpdated)
+            {
+                clones.Remove(key);
+                Destroy(value);
             }
         }
     }
