@@ -42,6 +42,9 @@ public class ImageTrackingObjectManager : MonoBehaviour
     [Tooltip("Prefab for tracked 1 image")]
     GameObject m_OnePrefab;
 
+    [SerializeField]
+    private RectTransform parentInstantiation;
+
     /// <summary>
     /// Get the one prefab
     /// </summary>
@@ -140,7 +143,7 @@ public class ImageTrackingObjectManager : MonoBehaviour
                 var canvas = prefab.GetComponent<Canvas>();
                 canvas.worldCamera = arCamera;
                 // Chris, you need to change this line
-                var clone = Instantiate(prefab, image.transform.position, image.transform.rotation);
+                var clone = Instantiate(prefab);
                 if ( clones.ContainsKey(imageGuid) )
                 {
                     clones[imageGuid] = prefab;
@@ -162,13 +165,13 @@ public class ImageTrackingObjectManager : MonoBehaviour
             {
                 if (image.referenceImage.guid == s_FirstImageGUID)
                 {
-                    m_OneNumberManager.Enable3DNumber(true);
-                    m_SpawnedOnePrefab.transform.SetPositionAndRotation(image.transform.position, image.transform.rotation);
+                    /*m_OneNumberManager.Enable3DNumber(true);
+                    m_SpawnedOnePrefab.transform.SetPositionAndRotation(image.transform.position, image.transform.rotation);*/
                 }
                 else if (image.referenceImage.guid == s_SecondImageGUID)
                 {
-                    m_TwoNumberManager.Enable3DNumber(true);
-                    m_SpawnedTwoPrefab.transform.SetPositionAndRotation(image.transform.position, image.transform.rotation);
+                    /*m_TwoNumberManager.Enable3DNumber(true);
+                    m_SpawnedTwoPrefab.transform.SetPositionAndRotation(image.transform.position, image.transform.rotation);*/
                 }
             }
             // image is no longer tracking, disable visuals TrackingState.Limited TrackingState.None
@@ -176,11 +179,11 @@ public class ImageTrackingObjectManager : MonoBehaviour
             {
                 if (image.referenceImage.guid == s_FirstImageGUID)
                 {
-                    m_OneNumberManager.Enable3DNumber(false);
+                    //m_OneNumberManager.Enable3DNumber(false);
                 }
                 else if (image.referenceImage.guid == s_SecondImageGUID)
                 {
-                    m_TwoNumberManager.Enable3DNumber(false);
+                    //m_TwoNumberManager.Enable3DNumber(false);
                 }
             }
         }
