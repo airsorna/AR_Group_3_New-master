@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
@@ -91,6 +92,10 @@ public class ImageTrackingObjectManager : MonoBehaviour
     }
 
     int m_NumberOfTrackedImages;
+
+    public Action<Guid> OnImageUpdated;
+    public Action<Guid> OnImageAdded;
+    public Action<Guid> OnImageRemoved;
     
     NumberManager m_OneNumberManager;
     NumberManager m_TwoNumberManager;
@@ -104,6 +109,8 @@ public class ImageTrackingObjectManager : MonoBehaviour
 
     private Dictionary<Guid, GameObject> clones = new Dictionary<Guid, GameObject>();
 
+    [SerializeField]
+    List<TrackedAddition> trackedAddition;
 
     private void Awake()
     {
@@ -111,6 +118,15 @@ public class ImageTrackingObjectManager : MonoBehaviour
         {
             imageGuids.Add(m_ImageLibrary[i].guid);
             prefabImagePairs.Add(imageGuids[i], prefabList[i]);
+        }
+
+
+        var length = imageGuids.Count;
+        for( var i = 0; i < length; i++)
+        {
+            var guid = imageGuids[i];
+            var tracking = trackedAddition[i];
+            tracking.activatingGuid = guid;
         }
     }
     void OnEnable()
@@ -135,13 +151,17 @@ public class ImageTrackingObjectManager : MonoBehaviour
         foreach(ARTrackedImage image in obj.added)
         {
             var imageGuid = image.referenceImage.guid;
+            OnImageAdded?.Invoke(imageGuid);
+
+
+
             Debug.Log(image.referenceImage.name);
             // List for AR
             if ( imageGuids.Contains(imageGuid) )
             {
                 var prefab = prefabImagePairs[imageGuid];
 
-                var canvas = prefab.GetComponent<Canvas>();
+                /*var canvas = prefab.GetComponent<Canvas>();
                 var clone = Instantiate(prefab);
                 if ( clones.ContainsKey(imageGuid) )
                 {
@@ -150,7 +170,7 @@ public class ImageTrackingObjectManager : MonoBehaviour
                 else
                 {
                     clones.Add(imageGuid, prefab);
-                }
+                }*/
                 Debug.LogWarning($" Added [***KEYS****]: {image.referenceImage.name}");
             }
            
@@ -162,7 +182,11 @@ public class ImageTrackingObjectManager : MonoBehaviour
         {
             Debug.LogWarning($" Updating [***KEYS****]: {image.referenceImage.name}");
             Debug.LogWarning($" Updating [***KEYS****]: {image.referenceImage.guid}");
-              
+
+            var imageGuid = image.referenceImage.guid;
+            OnImageUpdated?.Invoke(imageGuid);
+
+
             var _keys = clones.Keys;
 
             StringBuilder _builder = new StringBuilder();
@@ -179,7 +203,7 @@ public class ImageTrackingObjectManager : MonoBehaviour
                 if (clone != null)
                 {
                     Destroy(clone.gameObject);
-                    clones.Remove(image.referenceImage.guid);
+                    //clones.Remove(image.referenceImage.guid);
                 }
             }
         }
@@ -189,6 +213,10 @@ public class ImageTrackingObjectManager : MonoBehaviour
         //////////////////////////////////////////////////////////////////////
         foreach(ARTrackedImage image in obj.removed)
         {
+            var imageguid = image.referenceImage.guid;
+            OnImageRemoved?.Invoke(imageguid);
+            
+            
             Debug.LogWarning($" REMOVED [***KEYS****]: {image.referenceImage.name}");
             var _keys = clones.Keys;
             Debug.LogWarning($"REMOVED [***KEYS****]: {_keys}");
@@ -233,10 +261,50 @@ public class ImageTrackingObjectManager : MonoBehaviour
                     break;
                 }
             }
+
             if (!isInUpdated)
             {
-                clones.Remove(key);
-                Destroy(value);
+                //clones.Remove(key);
+                Destroy(value.gameObject);
+            }
+        }
+
+        var present = new List<Guid>();
+
+        foreach(var item in obj.added)
+        {
+            present.Add(item.referenceImage.guid);
+        }
+
+        foreach(var item in obj.updated)
+        {
+            present.Add(item.referenceImage.guid);
+        }
+
+        // Gather the list of guids not updated
+        var notPresent = new List<Guid>();
+        foreach(var item in present)
+        {
+            if (!imageGuids.Contains(item))
+            {
+                notPresent.Add(item);
+            }
+        }
+
+        foreach(var item in notPresent)
+        {
+            var clone = clones[item];
+            Destroy(clone);
+        }
+
+
+        // Check against the list of know guids in removed
+        foreach(var tracked in obj.removed)
+        {
+            if (clones.ContainsKey(tracked.referenceImage.guid))
+            {
+                var clone = clones[tracked.referenceImage.guid];
+                Destroy(clone);
             }
         }
     }
