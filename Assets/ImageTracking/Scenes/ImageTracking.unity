@@ -132,6 +132,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1755881650448387352, guid: 5e915de61be910f4bbf9f79febc76595,
+        type: 3}
+      propertyPath: m_text
+      value: Cole giving us a positioning of what the front passenger will experience.
+      objectReference: {fileID: 0}
     - target: {fileID: 6333806150587502089, guid: 5e915de61be910f4bbf9f79febc76595,
         type: 3}
       propertyPath: m_Name
@@ -280,6 +285,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &159167593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -408,6 +427,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8588716128964106098, guid: ad0131a8bda411f49a32e8bbd91dc9a0,
+        type: 3}
+      propertyPath: m_text
+      value: The first location's test shot.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -436,6 +460,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &232252177
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -749,6 +787,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1294470367141604553, guid: 60a3f60936dabab4984f09182d108e2c,
+        type: 3}
+      propertyPath: m_text
+      value: Photographer test shoots the reflective wall to determine how intense
+        the over exposure will be, helping the crew reconfigure.
+      objectReference: {fileID: 0}
     - target: {fileID: 5916507013745740968, guid: 60a3f60936dabab4984f09182d108e2c,
         type: 3}
       propertyPath: m_Pivot.x
@@ -897,6 +941,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!224 &320849211 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5977163237856183993, guid: 29251f2f7c5044cce8e7eb862b4d93ef,
@@ -911,6 +969,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 395686608206737021, guid: 8a1c68785896d0a4093a9fce893ba5bd,
+        type: 3}
+      propertyPath: m_text
+      value: The crew instructs the actors and receive suggested feedback from Reece.
+      objectReference: {fileID: 0}
     - target: {fileID: 4657673184610870758, guid: 8a1c68785896d0a4093a9fce893ba5bd,
         type: 3}
       propertyPath: m_Enabled
@@ -1059,6 +1122,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &397391637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1215,6 +1292,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &419196346
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1861,6 +1952,13 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4712117960845058876, guid: 9e7b72abd44f9d743a9b859c69600188,
+        type: 3}
+      propertyPath: m_text
+      value: The cast ask Cole to play the character of the corrupt police to better
+        direct the sequence. The crew, including Cole, agree on his participation
+        within the experience.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1889,6 +1987,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &634193751
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2017,6 +2129,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6668334593873176475, guid: f784f3c1625e83842b97104b89feefd6,
+        type: 3}
+      propertyPath: m_text
+      value: 'Cole and Lethabo (crew) decide on where the vehicle the actors are
+        driving should begin and end for the first sequence and master shot.
+
+
+
+'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2045,6 +2167,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &660006088
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2201,6 +2337,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &676417016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2989,6 +3139,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &887602706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3464,6 +3628,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1 &1015722065
 GameObject:
   m_ObjectHideFlags: 0
@@ -3895,6 +4073,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
+        type: 3}
+      propertyPath: m_text
+      value: 'The actors are making sure the car is prepared for the shoot. Cole '
+      objectReference: {fileID: 0}
     - target: {fileID: 6007603683317802085, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4043,6 +4226,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1183815924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4051,6 +4248,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2170670968543748365, guid: 03150c1da7f6dc14b8bef114b6683d66,
+        type: 3}
+      propertyPath: m_text
+      value: The second location's test shot.
+      objectReference: {fileID: 0}
     - target: {fileID: 5883904065676780060, guid: 03150c1da7f6dc14b8bef114b6683d66,
         type: 3}
       propertyPath: m_Name
@@ -4199,6 +4401,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1217607746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4366,6 +4582,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2908454229553415641, guid: 3c98067f7dc95914787ee1d6e84fa79f,
+        type: 3}
+      propertyPath: m_text
+      value: Crew moves to their chosen position (hiding place) to prepare for the
+        first take of the shoot.
+      objectReference: {fileID: 0}
     - target: {fileID: 7486374125488441032, guid: 3c98067f7dc95914787ee1d6e84fa79f,
         type: 3}
       propertyPath: m_Name
@@ -4514,6 +4736,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1236369764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4801,6 +5037,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6384915208063554920, guid: 333e5bc9a688efc4aad9661728c092c8,
+        type: 3}
+      propertyPath: m_text
+      value: Demonstrating to the cast how the test footage comes out.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4829,6 +5070,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1294727208
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4957,6 +5212,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8506168461720375392, guid: 98879b36f2dc0f1428e118cf77091ded,
+        type: 3}
+      propertyPath: m_text
+      value: The crew instructs the actors and receive suggested feedback from Reece.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4985,6 +5245,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1 &1335839533
 GameObject:
   m_ObjectHideFlags: 0
@@ -5234,6 +5508,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4006333519881733827, guid: aac312408af628b4e84867888aaf84b1,
+        type: 3}
+      propertyPath: m_text
+      value: A view from a cracked roof showcasing the grafitti of the shoot's environment.
+      objectReference: {fileID: 0}
     - target: {fileID: 8234824041884011864, guid: aac312408af628b4e84867888aaf84b1,
         type: 3}
       propertyPath: m_Enabled
@@ -5382,6 +5661,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1384207283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5510,6 +5803,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4816192200517184495, guid: 9f2e492290750cd429febe4deceb9c6f,
+        type: 3}
+      propertyPath: m_text
+      value: Our actor is being prepared for the shoot.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5538,6 +5836,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1394585940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5983,6 +6295,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7134370287659454810, guid: 39a38ecd1a224264c81e625f3690f10c,
+        type: 3}
+      propertyPath: m_text
+      value: "Cole is demonstrating to the cast how Insta 360\xB0 works."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6011,6 +6328,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1566069191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6588,7 +6919,7 @@ PrefabInstance:
     - target: {fileID: 7341502033826200019, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_PresetInfoIsWorld
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6757,6 +7088,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1670319636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6924,6 +7269,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4249202915300076806, guid: 48eea0882b65aed49beaebeea756f88d,
+        type: 3}
+      propertyPath: m_text
+      value: An aesthetic shot where the first shoot occured. The graffiti was in
+        sync with the video's ongoing theme and story.
+      objectReference: {fileID: 0}
     - target: {fileID: 8448794294808636951, guid: 48eea0882b65aed49beaebeea756f88d,
         type: 3}
       propertyPath: m_Name
@@ -7072,6 +7423,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1679554863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7228,6 +7593,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1709687268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7510,6 +7889,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2274589287342996381, guid: ac24ad1cd870ce348ad64a7b3b85ba84,
+        type: 3}
+      propertyPath: m_text
+      value: 'This image is the photographer''s sample of the chosen location while
+        positioning the actors at their starting points. '
+      objectReference: {fileID: 0}
     - target: {fileID: 5776113688252872844, guid: ac24ad1cd870ce348ad64a7b3b85ba84,
         type: 3}
       propertyPath: m_Name
@@ -7658,6 +8043,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1940719175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7814,6 +8213,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &1971132535
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8141,6 +8554,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3550893541080307080, guid: 9f14f03eccdd5084ea19f9894fdf4201,
+        type: 3}
+      propertyPath: m_text
+      value: Reece prepares one of the actors for the first sequence.
+      objectReference: {fileID: 0}
     - target: {fileID: 8262426242842670569, guid: 9f14f03eccdd5084ea19f9894fdf4201,
         type: 3}
       propertyPath: m_Pivot.x
@@ -8289,6 +8707,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageTracking: {fileID: 1875185602}
+  trackingImage:
+    m_SerializedGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_SerializedTextureGuid:
+      m_GuidLow: 0
+      m_GuidHigh: 0
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: 
+    m_Texture: {fileID: 0}
+  Guid: 
+  prettyGUID: 
+  imageName: 
 --- !u!1001 &5977163237366113874
 PrefabInstance:
   m_ObjectHideFlags: 0

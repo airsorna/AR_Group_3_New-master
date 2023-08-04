@@ -1,7 +1,7 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.XR.ARSubsystems;
 
 public class TrackedAddition : MonoBehaviour
 {
@@ -9,10 +9,20 @@ public class TrackedAddition : MonoBehaviour
 
     public ImageTrackingObjectManager imageTracking;
 
+    [FormerlySerializedAs("XRReferenceImage")]
+    public XRReferenceImage trackingImage;
+    
+    [SerializeField]
+    private string Guid;
+
     private Canvas canvas;
 
+    [SerializeField]
     private string prettyGUID;
 
+    [SerializeField]
+    private string imageName;
+    
     private void LazyLoadCanvas()
     {
         if ( canvas != null )
@@ -25,6 +35,8 @@ public class TrackedAddition : MonoBehaviour
     private void Update()
     {
         prettyGUID = activatingGuid.ToString();
+        imageName = trackingImage.name;
+
     }
 
     public void OnImageAdded(Guid guid)
@@ -66,6 +78,4 @@ public class TrackedAddition : MonoBehaviour
         imageTracking.OnImageUpdated -= OnImageUpdated;
         imageTracking.OnImageRemoved -= OnImageRemoved;
     }
-
-
 }

@@ -116,17 +116,12 @@ public class ImageTrackingObjectManager : MonoBehaviour
     {
         for (var i = 0; i < m_ImageLibrary.count; i++)
         {
+            XRReferenceImage reference = m_ImageLibrary[i];
             imageGuids.Add(m_ImageLibrary[i].guid);
             prefabImagePairs.Add(imageGuids[i], prefabList[i]);
-        }
-
-
-        var length = imageGuids.Count;
-        for( var i = 0; i < length; i++)
-        {
-            var guid = imageGuids[i];
             var tracking = trackedAddition[i];
-            tracking.activatingGuid = guid;
+            tracking.activatingGuid = m_ImageLibrary[i].guid;
+            tracking.trackingImage = m_ImageLibrary[i];
         }
     }
     void OnEnable()

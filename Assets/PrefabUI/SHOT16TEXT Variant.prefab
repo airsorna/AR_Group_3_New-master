@@ -16,7 +16,7 @@ PrefabInstance:
     - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_text
-      value: The first location's test shot.
+      value: The cast poses for the photographer after the shoot is wrapped
       objectReference: {fileID: 0}
     - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
@@ -41,7 +41,7 @@ PrefabInstance:
     - target: {fileID: 6007603683317802085, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6007603683317802085, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
