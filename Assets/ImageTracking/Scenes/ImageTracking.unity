@@ -1264,6 +1264,11 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7664812294861118779, guid: 45a93bb10be1bff4d922929219ec14df,
+        type: 3}
+      propertyPath: m_text
+      value: Cole (crew) demonstrates how the props should fit on our actor.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2189,6 +2194,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1457887401342538116, guid: 2bbf7c36213d3fd44b77034607c9a213,
+        type: 3}
+      propertyPath: m_text
+      value: The crew figures out where the actor conducting a deal should be placed
+        in the beginning of the story, which depended heavily on the wall hiding
+        our actors for the transaction.
+      objectReference: {fileID: 0}
     - target: {fileID: 5901359368369560095, guid: 2bbf7c36213d3fd44b77034607c9a213,
         type: 3}
       propertyPath: m_Enabled
@@ -2991,6 +3003,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3594002064140668973, guid: 55f2942bb1a45b148be40493af35779a,
+        type: 3}
+      propertyPath: m_text
+      value: An actor's repositioning in the sequence is being put into action
+      objectReference: {fileID: 0}
     - target: {fileID: 8218281988423069772, guid: 55f2942bb1a45b148be40493af35779a,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4076,7 +4093,8 @@ PrefabInstance:
     - target: {fileID: 1203038896346022916, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
       propertyPath: m_text
-      value: 'The actors are making sure the car is prepared for the shoot. Cole '
+      value: 'The actors are making sure the car is prepared for the shoot. He postions
+        the camera in the backseat. '
       objectReference: {fileID: 0}
     - target: {fileID: 6007603683317802085, guid: bc9b58e276a98d4498acc6b774fe3550,
         type: 3}
@@ -5215,7 +5233,8 @@ PrefabInstance:
     - target: {fileID: 8506168461720375392, guid: 98879b36f2dc0f1428e118cf77091ded,
         type: 3}
       propertyPath: m_text
-      value: The crew instructs the actors and receive suggested feedback from Reece.
+      value: The cast waits for the crew to figure out their placement for the scene,
+        identifying safe options.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7445,6 +7464,12 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3243643834945491209, guid: ec720cb457afcfa4997f0ac1b9154769,
+        type: 3}
+      propertyPath: m_text
+      value: Grafitti taken from the second location. Ties into the rough surroundings
+        and with the underlying theme.
+      objectReference: {fileID: 0}
     - target: {fileID: 7114467837374517784, guid: ec720cb457afcfa4997f0ac1b9154769,
         type: 3}
       propertyPath: m_Name
@@ -7892,8 +7917,7 @@ PrefabInstance:
     - target: {fileID: 2274589287342996381, guid: ac24ad1cd870ce348ad64a7b3b85ba84,
         type: 3}
       propertyPath: m_text
-      value: 'This image is the photographer''s sample of the chosen location while
-        positioning the actors at their starting points. '
+      value: 'This image is the photographer''s sample of the chosen location. '
       objectReference: {fileID: 0}
     - target: {fileID: 5776113688252872844, guid: ac24ad1cd870ce348ad64a7b3b85ba84,
         type: 3}
@@ -8184,6 +8208,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6034262831674815491, guid: 5cc9fb58b0acee14aaf38cd51d01cafa,
+        type: 3}
+      propertyPath: m_text
+      value: The cast gets acquainted with their location due to being familiar.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8557,7 +8586,7 @@ PrefabInstance:
     - target: {fileID: 3550893541080307080, guid: 9f14f03eccdd5084ea19f9894fdf4201,
         type: 3}
       propertyPath: m_text
-      value: Reece prepares one of the actors for the first sequence.
+      value: Reece is preparing for the first sequence.
       objectReference: {fileID: 0}
     - target: {fileID: 8262426242842670569, guid: 9f14f03eccdd5084ea19f9894fdf4201,
         type: 3}
